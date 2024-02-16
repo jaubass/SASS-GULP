@@ -1,0 +1,19 @@
+@use 'variables' as v;
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.contenedor {
+    max-width: 1200px;
+    width: 95%;
+}
+
+body {
+    font-family: v.$font_principal;
+}
